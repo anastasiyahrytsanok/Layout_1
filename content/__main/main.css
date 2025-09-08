@@ -1,0 +1,242 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 50px;
+  min-width: 0;
+}
+
+.videosection {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.videosection__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.videosection__chanel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.videosection__avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.videosection__name {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 33px;
+  color: var(--color-text-dark);
+}
+
+.videosection__name-container {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.controls-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.controls__breadcrumb {
+  background-color: var(--color-background-attention);
+  color: var(--color-text-white);
+  padding: 10px 20px;
+  border-radius: 20px;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-right: 149px;
+}
+
+.videosection__videos {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 40px;
+  width: 100%;
+  overflow-x: clip;
+  contain: inline-size;
+}
+
+.video-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-preview {
+  border-radius: 14px;
+  cursor: pointer;
+  position: relative;
+}
+
+.video-preview--small {
+  width: 250px;
+  height: 150px;
+}
+
+.video-preview--large {
+  width: 540px;
+  height: 250px;
+}
+
+.video-preview__badge {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: var(--color-background-badge);
+  color: var(--color-text-white);
+  font-size: 14px;
+}
+
+.video-card__title {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  color: var(--color-text-dark);
+  margin-top: 10px;
+}
+
+.video-card__description {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  color: rgba(194, 194, 194, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4px;
+}
+
+.videosection__avatar--channel1 {
+  background: url("../../assets/user1.png") center/cover no-repeat;
+}
+
+.videosection__avatar--channel2 {
+  background: url("../../assets/channel2.png") center/cover no-repeat;
+}
+
+.video-preview--video1 {
+  background: url("../../assets/video1.png") center/cover no-repeat;
+}
+
+.video-preview--video2 {
+  background: url("../../assets/video2.png") center/cover no-repeat;
+}
+
+.video-preview--video3 {
+  background: url("../../assets/video3.png") center/cover no-repeat;
+}
+
+.video-preview--video4 {
+  background: url("../../assets/video4.png") center/cover no-repeat;
+}
+
+.video-preview--video5 {
+  background: url("../../assets/video5.png") center/cover no-repeat;
+}
+
+.video-preview--video6 {
+  background: url("../../assets/video6.png") center/cover no-repeat;
+}
+.video-preview--video7 {
+  background: url("../../assets/video7.png") center/cover no-repeat;
+}
+
+.video-preview--video8 {
+  background: url("../../assets/video8.png") center/cover no-repeat;
+}
+
+.video-preview--video9 {
+  background: url("../../assets/video9.png") center/cover no-repeat;
+}
+
+.video-preview--video10 {
+  background: url("../../assets/video10.png") center/cover no-repeat;
+}
+
+.video-preview--video11 {
+  background: url("../../assets/video11.png") center/cover no-repeat;
+}
+
+.video-preview--video12 {
+  background: url("../../assets/video12.png") center/cover no-repeat;
+}
+
+.video-preview--video13 {
+  background: url("../../assets/video13.png") center/cover no-repeat;
+}
+
+.video-preview--video14 {
+  background: url("../../assets/video14.png") center/cover no-repeat;
+}
+
+.video-preview--video15 {
+  background: url("../../assets/video15.png") center/cover no-repeat;
+}
+
+@media (max-width: 1150px) {
+  .controls {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .videosection__description {
+    display: none;
+  }
+}
+
+@media (max-width: 815px) {
+  .main {
+    padding-bottom: var(--footer-mobile-h);
+  }
+}
+
+@media (max-width: 750px) {
+  .videosection__header {
+    display: none;
+  }
+
+  .videosection__videos {
+    flex-direction: column;
+  }
+
+  .video-preview--small {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 6 / 3;
+  }
+
+  .video-preview--large {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 6 / 3;
+  }
+}
