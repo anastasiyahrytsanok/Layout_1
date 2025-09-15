@@ -1,6 +1,6 @@
 .footer {
   height: var(--footer-h);
-  padding: 4px 34px 40px;
+  padding: 4px 34px 50px;
 }
 
 .settings {
@@ -21,7 +21,7 @@
   }
 
   .footer {
-    padding: 12px 24px;
+    padding: 19px 24px 12px 24px;
     height: auto;
     border-top: 1px solid var(--color-border-default);
     position: fixed;
