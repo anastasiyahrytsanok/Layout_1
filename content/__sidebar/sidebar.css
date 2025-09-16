@@ -21,6 +21,10 @@
   margin-bottom: 29px;
 }
 
+.sidebar__item--trending {
+  margin-left: 15px;
+}
+
 .sidebar__link {
   display: flex;
   align-items: center;

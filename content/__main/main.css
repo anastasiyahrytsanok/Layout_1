@@ -232,13 +232,14 @@
 
   .videosection__videos {
     flex-direction: column;
-    gap: 33px;
+    gap: 30px;
   }
 
   .video-preview--small {
     width: 100%;
     height: auto;
     aspect-ratio: 6 / 3;
+    min-height: 150px;
   }
 
   .video-preview--large {
@@ -248,6 +249,6 @@
   }
 
   .video-card__title {
-    margin-top: 14px;
+    margin-top: 10px;
   }
 }
